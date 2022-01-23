@@ -1,5 +1,5 @@
 colorScheme = "fire"
-darkMode = "auto"
+darkMode = false
 darkToggle = true
 # logo = "img/logo.jpg"
 # description = "My awesome website"
