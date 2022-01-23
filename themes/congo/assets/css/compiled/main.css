@@ -1913,10 +1913,6 @@ body a, body button {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -2062,6 +2058,10 @@ body a, body button {
   margin-bottom: 2.25rem !important;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -2084,10 +2084,6 @@ body a, body button {
 
 .mb-16 {
   margin-bottom: 4rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .mt-1 {
@@ -2340,10 +2336,6 @@ body a, body button {
   border-color: var(--color-neutral-700);
 }
 
-.border-opacity-20 {
-  --tw-border-opacity: 0.2;
-}
-
 .bg-neutral {
   background-color: var(--color-neutral);
 }
@@ -2364,40 +2356,8 @@ body a, body button {
   background-color: var(--color-primary-100);
 }
 
-.bg-neutral-600 {
-  background-color: var(--color-neutral-600);
-}
-
-.bg-neutral-500 {
-  background-color: var(--color-neutral-500);
-}
-
-.bg-neutral-700 {
-  background-color: var(--color-neutral-700);
-}
-
-.bg-secondary-400 {
-  background-color: var(--color-secondary-400);
-}
-
-.bg-secondary-200 {
-  background-color: var(--color-secondary-200);
-}
-
-.bg-secondary-300 {
-  background-color: var(--color-secondary-300);
-}
-
-.bg-secondary-800 {
-  background-color: var(--color-secondary-800);
-}
-
-.bg-secondary-700 {
-  background-color: var(--color-secondary-700);
-}
-
-.bg-primary-800 {
-  background-color: var(--color-primary-800);
+.bg-neutral-400 {
+  background-color: var(--color-neutral-400);
 }
 
 .bg-primary-500 {
@@ -2438,10 +2398,6 @@ body a, body button {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-6 {
@@ -2705,12 +2661,40 @@ body a, body button {
   color: var(--color-primary-400);
 }
 
+.text-neutral-100 {
+  color: var(--color-neutral-100);
+}
+
 .text-opacity-100 {
   --tw-text-opacity: 1;
 }
 
 .\!no-underline {
   text-decoration: none !important;
+}
+
+.placeholder-neutral-600::-moz-placeholder {
+  color: var(--color-neutral-600);
+}
+
+.placeholder-neutral-600:-ms-input-placeholder {
+  color: var(--color-neutral-600);
+}
+
+.placeholder-neutral-600::placeholder {
+  color: var(--color-neutral-600);
+}
+
+.placeholder-neutral-500::-moz-placeholder {
+  color: var(--color-neutral-500);
+}
+
+.placeholder-neutral-500:-ms-input-placeholder {
+  color: var(--color-neutral-500);
+}
+
+.placeholder-neutral-500::placeholder {
+  color: var(--color-neutral-500);
 }
 
 .shadow-sm {
@@ -2731,6 +2715,14 @@ body a, body button {
 
 .first\:mt-8:first-child {
   margin-top: 2rem;
+}
+
+.invalid\:border-secondary-700:invalid {
+  border-color: var(--color-secondary-700);
+}
+
+.invalid\:text-secondary-700:invalid {
+  color: var(--color-secondary-700);
 }
 
 .hover\:border-primary-400:hover {
@@ -2796,9 +2788,21 @@ body a, body button {
   text-decoration-thickness: 2px;
 }
 
+.focus\:bg-neutral-200:focus {
+  background-color: var(--color-neutral-200);
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus\:invalid\:border-secondary-700:focus:invalid {
+  border-color: var(--color-secondary-700);
+}
+
+.focus\:invalid\:ring-secondary-700:focus:invalid {
+  --tw-ring-color: var(--color-secondary-700);
 }
 
 .dark .dark\:prose {
@@ -3424,11 +3428,6 @@ body a, body button {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .sm\:text-4xl {
