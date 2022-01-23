@@ -11,10 +11,10 @@ enableEmoji = true
 enableRobotsTXT = true
 summaryLength = 0
 
-baseURL = "en-au/"
+baseURL = "https://www.embrcollab.com/en-au/"
 
-RelativeURLs = false
-CanonifyURLs = false
+RelativeURLs = true
+CanonifyURLs = true
 
 [author]
   name = "embr collaborative"
