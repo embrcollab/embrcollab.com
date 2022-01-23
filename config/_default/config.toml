@@ -13,8 +13,8 @@ summaryLength = 0
 
 baseURL = "en-au/"
 
-RelativeURLs=true
-CanonifyURLs=true
+RelativeURLs = false
+CanonifyURLs = false
 
 [author]
   name = "embr collaborative"
