@@ -1,0 +1,38 @@
+colorScheme = "fire"
+darkMode = "auto"
+darkToggle = true
+# logo = "img/logo.jpg"
+# description = "My awesome website"
+# mainSections = ["section1", "section2"]
+# robots = ""
+
+[homepage]
+  layout = "custom" # valid options: page, profile, custom
+  showRecent = false
+
+[article]
+  showDate = false
+  dateFormat = "2 January 2006"
+  showAuthor = false
+  showBreadcrumbs = false
+  showDraftLabel = false
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = false
+  showReadingTime = false
+  showWordCount = false
+  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = false
+  groupByYear = false
+
+[taxonomy]
+  showTermCount = true
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
