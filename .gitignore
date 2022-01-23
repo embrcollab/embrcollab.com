@@ -1,3 +1,7 @@
+### Node ###
+# Dependency directories
+node_modules/
+
 ### Hugo ###
 # Generated files by hugo
 /public/
