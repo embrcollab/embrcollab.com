@@ -170,39 +170,43 @@
     <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
       <label
         class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-        for="grid-first-name"
+        for="grid-website-type"
       >
-        Name
+        Website type
       </label>
-      <input
-        class="appearance-none block w-full text-neutral-900 placeholder-neutral-500 bg-neutral-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-neutral-200 invalid:border-secondary-700 invalid:text-secondary-700 focus:invalid:border-secondary-700 focus:invalid:ring-secondary-700"
-        id="grid-first-name"
-        name="name"
-        type="text"
-        placeholder="Jane Doe"
-        tabindex="1"
+      <select 
+        class="block w-full text-neutral-900 placeholder-neutral-500 bg-neutral-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-neutral-200 invalid:border-secondary-700 invalid:text-secondary-700 focus:invalid:border-secondary-700 focus:invalid:ring-secondary-700"
+        id="grid-website-type"
+        name="website-type"
+        tabindex="4"
         required
-        autofocus
-      />
+        autofocus>
+      <option>Landing page</option>
+      <option>eCommerce store</option>
+      <option>WordPress blog</option>
+      <option>Company portal</option>
+      </select>
     </div>
-    <div class="w-full md:w-1/3 px-3">
-      <label
-        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-        for="grid-last-name"
-      >
-        Phone
-      </label>
-      <input
-        class="appearance-none block w-full text-neutral-900 placeholder-neutral-500 bg-neutral-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-neutral-200 invalid:border-secondary-700 invalid:text-secondary-700 focus:invalid:border-secondary-700 focus:invalid:ring-secondary-700"
-        id="grid-phone"
-        name="phone"
-        type="tel"
-        placeholder="0412 345 678"
-        tabindex="2"
-        required
-        autofocus
-      />
-    </div>
+    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+          for="grid-pages"
+        >
+          Amount of pages
+        </label>
+        <select 
+          class="block w-full text-neutral-900 placeholder-neutral-500 bg-neutral-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-neutral-200 invalid:border-secondary-700 invalid:text-secondary-700 focus:invalid:border-secondary-700 focus:invalid:ring-secondary-700"
+          id="grid-pages"
+          name="pages"
+          tabindex="5"
+          required
+          autofocus>
+        <option>1-5</option>
+        <option>5-10</option>
+        <option>10-20</option>
+        <option>20+</option>
+        </select>
+      </div>
     <div class="w-full md:w-1/3 px-3">
       <label
         class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
